@@ -25,7 +25,7 @@
             <p class="banner-d">
                 “Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.” – Patrick McKenzie
             </p>
-            <button class="banner-btn">Contact with me</button>
+            <button  class="banner-btn" id="focusButton">Contact with me</button>
             </div>
          </div>
 
@@ -128,7 +128,7 @@
             </div>
             
             <div class="support-container">
-                <input type="text" placeholder="Suggest me any feedback for me">
+                <input id="go" type="text" placeholder="Suggest me any feedback for me">
                 <button>Submit</button>
             </div>
 
@@ -137,6 +137,13 @@
        
     </main>
   
-    
+    <script>
+        document.getElementById('focusButton').addEventListener('click', function() {
+          document.getElementById('go').focus();
+        });
+      </script>
+    <footer>
+        
+    </footer>
 </body>
 </html>

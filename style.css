@@ -415,11 +415,11 @@ padding: 19px 20px 19px 20px;
 .support-container>button{
     border-radius: 8px;
 background: rgb(255, 255, 255);
-/* Frame 8 */
+
 position: static;
 width: 120px;
 height: 58px;
-/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: center;

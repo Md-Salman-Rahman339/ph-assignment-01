@@ -49,7 +49,7 @@
     left: 0;
     right: 0;
     top: 131px;
-    bottom: 4462px;
+    bottom: 0px;
 }
 .banner-container{
  
@@ -59,7 +59,7 @@
     left: 221px;
     right: 221px;
     top: 20px;
-    bottom: 4506px;
+    bottom: 0px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -157,7 +157,7 @@ text-align: center;
     left: 100px;
     right: 100px;
     top: 700px;
-    bottom: 500px;
+    bottom: 0px;
 
     /* display: flex; */
     flex-direction: row;
@@ -250,7 +250,7 @@ height: 777px;
 left: 148px;
 right: 152px;
 top: 2340px;
-bottom: 2128px;
+bottom: 0px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -284,7 +284,7 @@ height: 1445px;
 left: 150px;
 right: 150px;
 top: 2900px;
-bottom: 534px;
+bottom: 0px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -374,7 +374,7 @@ height: 314px;
 left: 150px;
 right: 150px;
 top: 3300px;
-bottom: 179px;
+bottom: 0px;
 
 display: flex;
 flex-direction: column;
@@ -430,4 +430,37 @@ padding: 17px 20px 17px 20px;
 .support-container{
     display: flex;
     gap: 15px;
+}
+.foot{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+/* Frame 21 */
+position: absolute;
+width: 820px;
+height: 50px;
+left: 0;
+top: 4000px;
+bottom: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 150px 32px 150px;
+
+
+}
+.footer-container{
+    position: static;
+width: 800px;
+height: 36px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+.footer-icon{
+   gap: 10px;
+   
 }
